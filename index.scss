@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+body{
+    background-color: #F4F0BB;
+}
+.app{
+    header{
+        background-color: #226F54;
+        text-align: center;
+        padding: 2rem;
+        color: white;
+        display: flex;
+        align-items: center;
+        place-content: center;
+        h1{
+            display: inline;
+        }
+        img{
+            object-fit: contain;
+            height: 5rem;
+            background-color: #226F54;
+        }
+    }
+    
+    .hero{
+        padding: 1rem;
+        
+        
+        width: fit-content;
+        margin: 0 auto;
+
+        textarea{
+            padding: 1rem;
+            width: 100%;
+            min-width: 20vw;
+            min-height: 30vh;
+        }
+       
+
+        #btn-translate{
+            display: inline-block;
+            padding: 1rem;
+            background-color: #87C38F;
+            margin: 1rem 0;
+            border: none;
+            font-size: 1rem;
+        }
+        #groot{
+            position: relative;
+            top:12px
+        }
+
+        .groot-output{
+            width: 100%;
+            border: 1px solid black;
+            min-height: 5vw;
+            overflow: scroll;
+            padding: 1rem;
+            background-color: white;
+            box-sizing: border-box;
+        }
+    }
+
+    footer{
+        background-color: #226F54;
+        padding: 1rem;
+        // position: fixed;
+        // bottom: 0;
+       
+
+        .footer-content{
+            margin: auto;
+            width: 50%;
+            text-align: center;
+            padding: 2rem ;
+            color: white;
+        }
+        
+    }
+}
